@@ -37,11 +37,11 @@ Clone the repository and install the required dependencies:
 git clone https://github.com/DSwebTEAM/ReconCLI.git
 cd ReconCLI
 pip install -r requirements.txt
-
+```
 
 ---
 
-▶️ Usage
+##▶️ Usage
 
 Run the main launcher to start the CLI:
 
@@ -83,7 +83,7 @@ The goal is to build efficient and ethical open-source utilities with community-
 
 Pull requests are welcome!
 If you'd like to contribute new modules or enhance existing ones:
-
+```bash
 # Fork the repo
 # Create a new branch
 git checkout -b feature/new-tool
@@ -95,21 +95,15 @@ git commit -m "Add new tool module"
 git push origin feature/new-tool
 
 # Open a Pull Request
-
+```
 
 ---
 
 🌍 Future Roadmap
-
 Integration of advanced network modules
-
 Logging & monitoring utilities
-
 AI-assisted scanning (experimental)
-
 Improved UI banners and customization
-
-
 
 ---
 
