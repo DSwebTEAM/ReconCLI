@@ -7,7 +7,9 @@ Built with modularity in mind, each tool is separated into modules for better co
 
 ## 📁 Project Structure
 
+```
 reconcli/ ├── reconcli.py          ← main launcher ├── modules/             ← subtools directory │   ├── sysinfo.py │   ├── nettools.py │   ├── banner.py │   └── safety.py ├── data/ │   └── banners/ │       └── recon.txt └── requirements.txt
+```
 
 ---
 
