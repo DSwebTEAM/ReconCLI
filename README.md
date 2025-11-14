@@ -1,5 +1,8 @@
 #             ReconCLI
 
+
+*the requirement.txt is not added yet because the entire project is still under development, and tge major function aren't yet pushed to git repo, we are working towards completing the project v2 ASAP*
+
 ReconCLI is a simple yet powerful command-line toolkit designed for lightweight system reconnaissance, network scanning, and safety analysis.  
 Built with modularity in mind, each tool is separated into modules for better control, speed, and maintenance.
 
