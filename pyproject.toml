@@ -1,0 +1,29 @@
+[build-system]
+requires      = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name        = "reconcli"
+version     = "3.0.0"
+description = "Reconnaissance & Security Audit Toolkit by DSwebTEAM"
+readme      = "README.md"
+requires-python = ">=3.8"
+license     = { text = "MIT" }
+authors     = [{ name = "DSwebTEAM" }]
+keywords    = ["security","recon","pentest","cli","network"]
+dependencies = [
+    "requests>=2.31.0",
+    "dnspython>=2.4.0",
+    "python-whois>=0.9.0",
+    "colorama>=0.4.6",
+]
+
+[project.scripts]
+reconcli = "main:main"
+
+[tool.setuptools.packages.find]
+where   = ["."]
+include = ["core*", "engines*"]
+
+[tool.setuptools.package-data]
+"*" = ["data/wordlists/*.txt"]
