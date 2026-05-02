@@ -35,13 +35,16 @@
 ```bash
 git clone https://github.com/DSwebTEAM/ReconCLI.git
 cd ReconCLI
-
+```
+```
 # Linux / macOS
 chmod +x install.sh && ./install.sh
-
+```
+```
 # Termux (Android)
 bash install.sh
-
+```
+```
 # Windows
 install.bat
 ```
