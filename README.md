@@ -61,7 +61,7 @@ $ reconcli
 
 recon > help
 recon > use recon/subdomain
-recon [recon/subdomain] > set TARGET hibiki.app
+recon [recon/subdomain] > set TARGET <website URL>
 recon [recon/subdomain] > options
 recon [recon/subdomain] > run
 recon [recon/subdomain] > back
@@ -73,9 +73,9 @@ recon > exit
 
 ### Direct Mode (scriptable)
 ```bash
-reconcli recon/subdomain -t hibiki.app
-reconcli security/cors -t https://hibiki.app
-reconcli security/jwt -t https://hibiki.app --set TOKEN=eyJ...
+reconcli recon/subdomain -t <website URL>
+reconcli security/cors -t <website URL>
+reconcli security/jwt -t <website URL> TOKEN=eyJ...
 reconcli recon/portscan -t 192.168.1.1 --set PORTS=1-1024
 reconcli --list
 ```
